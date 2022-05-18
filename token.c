@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* tokenizer - creates tokens from given input
-* @line: to be tokenized
+* tokenizer - creates tokens from given file
+* @line: to be tokenized .
 *
 * Return: array of strings
 */

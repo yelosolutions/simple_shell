@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* test_path - checks whether path is valid
+* test_path - checks whether path is valid.
 * @path: tokenized path
-* @command: user entered command
+* @command: user input command
 *
 * Return: path appended with command on success
 * NULL on failure
