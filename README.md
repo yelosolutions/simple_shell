@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple UNIX command interpreter written in C.
+The following is a simple shell program
 
 ## Compilation
 
@@ -41,33 +41,30 @@ hsh main.c shell.c test_ls_2
 $
 ```
 
-#### Included Built-Ins
+### BuiltIns
 
-The simple shell has support for the following built-in commands:
+| Command       | Definition                          |
+| ------------- | ----------------------------------- |
+| exit [status] | Exits the shell with a given status |
+| env           | Prints the current environment      |
 
-| Command                   | Definition                                    |
-| ------------------------- | --------------------------------------------- |
-| exit [status]             | Exits the shell with a given status           |
-| env                       | Prints the current environment                |
-| setenv [variable] [value] | Sets an environment variable to a given value |
-| unsetenv [variable]       | Removes an environment variable               |
-
-### Examples
+### Sample
 
 ```
-$ /bin/ls
-AUTHORS  README.md  built.c  env_list.c  hsh  lists.c  main.c  main.h  shell.c	strings.c
 $ ls
-AUTHORS  README.md  built.c  env_list.c  hsh  lists.c  main.c  main.h  shell.c	strings.c
-$ ^C
-$ hello world
-./hsh: 1: hello: not found
-$ exit
+AUTHORS    betty_tester.c  env_print.c  hsh         path_get.c   shell.h           strchr.c
+README.md  builtinc.c      func_prt.c   lineexec.c  path_test.c  signals.c         token_hndlr.c
+append.c   cmdexit.c       funcfr.c     main.c      prompt_r.c   simple_shell_man
+
+$ /bin/ls
+AUTHORS    betty_tester.c  env_print.c  hsh         path_get.c   shell.h           strchr.c
+README.md  builtinc.c      func_prt.c   lineexec.c  path_test.c  signals.c         token_hndlr.c
+append.c   cmdexit.c       funcfr.c     main.c      prompt_r.c   simple_shell_man
 ```
 
 ## Credits
 
-Written by
+Code done by
 
 - [Joseph Rono](https://github.com/yelosolutions)
 - [Angelah Wafula](https://github.com/angelah1994)
