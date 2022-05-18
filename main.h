@@ -95,5 +95,3 @@ int _atoi(char *str);
 void str_rep(char *str, char c1, char c2);
 
 #endif
-
-

@@ -142,4 +142,3 @@ int _unsetenv(list_t *env_list, const char *name)
 
 	return (0);
 }
-
