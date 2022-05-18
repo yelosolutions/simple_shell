@@ -57,8 +57,8 @@ void free_buffers(char **buf);
  */
 struct builtin
 {
-    char *env;
-    char *exit;
+	char *env;
+	char *exit;
 } builtin;
 
 /**
@@ -70,8 +70,8 @@ struct builtin
  */
 struct info
 {
-    int final_exit;
-    int ln_count;
+	int final_exit;
+	int ln_count;
 } info;
 
 /**
@@ -83,7 +83,7 @@ struct info
  */
 struct flags
 {
-    bool interactive;
+	bool interactive;
 } flags;
 
 #endif
