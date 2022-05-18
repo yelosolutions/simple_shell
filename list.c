@@ -298,16 +298,3 @@ int delete_node_index(list_t **head, int index)
 
 	return (0);
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
