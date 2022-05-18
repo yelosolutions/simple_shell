@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
 * tokenizer - creates tokens from given file
