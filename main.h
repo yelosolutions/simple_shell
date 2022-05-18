@@ -48,21 +48,42 @@ char *find_path(void);
 /* helper function for efficient free */
 void free_buffers(char **buf);
 
+/**
+ * struct builtin - builtin handler.
+ * @env: string
+ * @exit: string
+ *
+ * Description: builtin handler
+ */
 struct builtin
 {
-    char *env;
-    char *exit;
+	char *env;
+	char *exit;
 } builtin;
 
+/**
+ * struct info - info handler.
+ * @final_exit: integer
+ * @ln_count: integer
+ *
+ * Description: info handler
+ */
 struct info
 {
-    int final_exit;
-    int ln_count;
+	int final_exit;
+	int ln_count;
 } info;
 
+/**
+ * struct flags - flags handler.
+ *
+ * @interactive: bool
+ *
+ * Description: flags handler
+ */
 struct flags
 {
-    bool interactive;
+	bool interactive;
 } flags;
 
 #endif
